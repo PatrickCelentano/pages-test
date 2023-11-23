@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/pages-test/", // GitHub pages
-  server: { port: 3000 },
+  base: '/pages-test/', // GitHub pages
   plugins: [react()],
 })
